@@ -19,12 +19,17 @@
 			$this->text->setTextAnchor('middle');
 			$this->text->setFont(null,null,null,$width/10);
 		}
-		
+
 		public function getXML(){
 			$xml =   $this->box->getXML();
 			$xml .= $this->text->getXML();
 			return $xml;
 		}
+
+		public function info(){
+			printf("TextBox. Text:%s, Height: %s, Width: %s, X: %d, Y: %d\n", $this->text->getText(), $this->height, $this->width, $this->x, $this->y);
+		}
+
 
 	}
 	

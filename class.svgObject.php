@@ -12,7 +12,7 @@
 		}
 
 		public function info(){
-			printf("Height: %s, Width: %s", $this->height, $this->width);
+			printf("Generic object. Height: %s, Width: %s, X: %d, Y: %d\n", $this->height, $this->width, $this->x, $this->y);
 		}
 
 		abstract function getXML();

@@ -6,6 +6,10 @@
 			parent::__construct($width, $width);
 		}
 
+		public function info(){
+			printf("Square. Size: %s, X: %d, Y: %d\n", $this->height, $this->x, $this->y);
+		}
+
 	}
 
 ?>

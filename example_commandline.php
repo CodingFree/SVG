@@ -14,7 +14,7 @@
 	$textBox->setY(50);
 	$textBox->box->setColorFill(255,255,255);
 	$textBox->text->setFont(null,"italic","bold",20);
-	$xml = $textBox->getXML();
+	$xml = $textBox->info();
 
 	for($i =1; $i <= 20; $i++){
 		$posX = rand(1, 200);
@@ -24,10 +24,7 @@
 		$circle->setX($posX+70);
 		$circle->setY($posY+10);
 		$circle->setColorFill(255,255,255);
-		$xml .= $circle->getXML();
+		$xml .= $circle->info();
 	}
-
-	$canvas->setXML($xml);
-	echo $canvas->getXML();
 
 ?>

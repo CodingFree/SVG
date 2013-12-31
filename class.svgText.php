@@ -60,6 +60,15 @@
 			
 		}
 
+		public function info(){
+			printf("Text. Text: %s\n", $this->getText());
+		}
+
+		public function getText(){
+			return $this->text;
+		}
+
+
 	}
 
 ?>

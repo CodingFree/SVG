@@ -33,6 +33,11 @@
 			$this->colorStroke = $this->rgbString($red, $green, $blue);
 		}
 
+		public function info(){
+			printf("Rectangle. Height: %s, Width: %s, X: %d, Y: %d\n", $this->height, $this->width, $this->x, $this->y);
+		}
+
+
 	}
 
 ?>

@@ -3,7 +3,8 @@
 	abstract class svgObject{
 		protected $width;
 		protected $height;
-		private $xml;
+		protected $x;
+		protected $y;
 	
 		function __construct($width, $height){
 			$this->width = $width;
@@ -15,6 +16,14 @@
 		}
 
 		abstract function getXML();
+
+		public function setX($x = 0){
+			$this->x = $x;
+		}
+
+		public function setY($y = 0){
+			$this->y = $y;
+		}
 
 	}
 ?>

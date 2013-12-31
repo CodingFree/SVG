@@ -37,8 +37,8 @@
 
 	}
 
-	/**This is just a test.**/
-	echo '<svg width="400" height="480">';
+	/**This is just a test.
+	/*echo '<svg width="400" height="480">';
 	$rectangle = new svgEllipse(40, 100);
 	$rectangle->setColorStroke(0,0,255);
 	$rectangle->setColorFill(0,0,100);
@@ -46,7 +46,7 @@
 	$rectangle->setX(200);
 	$rectangle->setY(120);
 	echo $rectangle->getXML();
-	echo '</svg>';
+	echo '</svg>';**/
 	
 
 ?>

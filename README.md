@@ -1,4 +1,4 @@
 SVG
 ===
 
-SVG PHP
+It's just a SVG generator in PHP.

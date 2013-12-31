@@ -35,16 +35,4 @@
 
 	}
 
-	/**This is just a test.
-	echo '<svg width="400" height="480">';
-	$rectangle = new svgRectangle(100, 100);
-	$rectangle->setColorStroke(0,0,255);
-	$rectangle->setColorFill(0,0,100);
-	$rectangle->setWidthStroke(10);
-	$rectangle->setX(50);
-	$rectangle->setY(50);
-	echo $rectangle->getXML();
-	echo '</svg>';**/
-	
-
 ?>

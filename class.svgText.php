@@ -62,14 +62,4 @@
 
 	}
 
-	/**This is just a test.
-	echo '<svg width="400" height="480">';
-	$rectangle = new svgText("Kiosked");
-	$rectangle->setColorFill(0,0,100);
-	$rectangle->setX(40);
-	$rectangle->setY(40);
-	echo $rectangle->getXML();
-	echo '</svg>';**/
-	
-
 ?>

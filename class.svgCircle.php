@@ -8,11 +8,4 @@
 
 	}
 
-	/**Yet another test
-	echo '<svg width="400" height="480">';
-	$circle = new svgCircle(100);
-	$circle->setX(100);
-	$circle->setY(100);
-	echo $circle->getXML();
-	echo '</svg>';*/
 ?>

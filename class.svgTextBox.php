@@ -27,13 +27,6 @@
 		}
 
 	}
-
-	echo '<svg width="400" height="480">';
-	$textbox = new svgTextBox("Kiosked", 100, 50);
-	$textbox->box->setColorFill(255,255,255);
-	$textbox->text->setFont(null,"italic","bold",20);
-	echo $textbox->getXML();
-	echo '</svg>';
 	
 
 ?>

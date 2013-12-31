@@ -8,9 +8,4 @@
 
 	}
 
-	/**Yet another test
-	$square = new svgSquare(200);
-	echo '<svg width="400" height="480">';
-	echo $square->getXML();
-	echo '</svg>';**/
 ?>
